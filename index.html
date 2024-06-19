@@ -19,38 +19,27 @@
     <link rel="stylesheet" type="text/css" href="./styles/footer.css">
 </head>
 <body>
-    <header>
-        <div class="logo_name">
-            <img src="https://bnz07pap001files.storage.live.com/y4m73aavuLav67rXpfv5YQV9XVWcFEIayYNdu7nBoVoBNov_Yv3Aa1d3MirZB7kaAKTU1oTNjxeh4IKd7Yt4WHuVuSm8wVZB2dxH2G5GK0ZBSeuV7MyRVKnIAwDyVn0d2lYHVfMLzLQ-1g4DQCoTNSF3nBqodDS4PHNyhUcRi61jjEntPRb5ZjwPdinvQSDz8Do?width=100&height=100&cropmode=none" alt="ralerv logo" class="ralerv-logo">
-        </div>
-        <p class="name">Ralerv</p>
-        <nav class="nav-header">
-            <span class="menu-icon--span img">
-                <img src="https://bnz07pap001files.storage.live.com/y4m_F8vTUDm7X4htzGd6YqLgKAxArwu-MVG32SmlkOfL8qH7Sdy5qQWEQ7MVebPt61mnS7FNzg1o8Cnes2fqIkbVpORY008xwmO16-2CEVvUvdRybpYiCfgs7vKItBp3c-aCQeGCMYeelcppqQsQdeqX1unY0keRtyOvBFdLiegGrWVgUUAD5FAzQBhmamzE8Dg?width=100&height=100&cropmode=none" alt="menu icon" id="menu-icon" class="menu-icon-img">
-            </span>
-            <ul class="nav-list" id="nav-list">
-                <li><a class="nav-link" href="#about">Acerca de mí</a></li>
-                <li><a class="nav-link" href="#projects">Proyectos</a></li>
-                <li><a class="nav-link" href="#social-tree">Encuentrame</a></li>
-                <li><a class="nav-link" href="#extras">Extras</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="nav-body-hider" id="nav-body-hider"></div>
+    <nav class="navbar">
+         <img class="navbar_logo" src="https://bnz07pap001files.storage.live.com/y4m73aavuLav67rXpfv5YQV9XVWcFEIayYNdu7nBoVoBNov_Yv3Aa1d3MirZB7kaAKTU1oTNjxeh4IKd7Yt4WHuVuSm8wVZB2dxH2G5GK0ZBSeuV7MyRVKnIAwDyVn0d2lYHVfMLzLQ-1g4DQCoTNSF3nBqodDS4PHNyhUcRi61jjEntPRb5ZjwPdinvQSDz8Do?width=100&height=100&cropmode=none" alt="ralerv logo" >
+         <p class="navbar_name">Ralerv</p>
+         <img id="menu-icon" class="navbar_menu-icon" src="https://bnz07pap001files.storage.live.com/y4m_F8vTUDm7X4htzGd6YqLgKAxArwu-MVG32SmlkOfL8qH7Sdy5qQWEQ7MVebPt61mnS7FNzg1o8Cnes2fqIkbVpORY008xwmO16-2CEVvUvdRybpYiCfgs7vKItBp3c-aCQeGCMYeelcppqQsQdeqX1unY0keRtyOvBFdLiegGrWVgUUAD5FAzQBhmamzE8Dg?width=100&height=100&cropmode=none" alt="menu icon" >
+         <ul id="nav-list" class="navbar_list" >
+            <li class="navbar_link"><a href="#about">Acerca de mí</a></li>
+            <li class="navbar_link"><a  href="#projects">Proyectos</a></li>
+            <li class="navbar_link"><a href="#social-tree">Encuentrame</a></li>
+            <li class="navbar_link navbar_link--extras"><a  href="#extras">Extras</a></li>
+        </ul>  
+    </nav>
+    <div  id="nav-body-hider" class="nav-body-hider" ></div>
 
     <main>
-        <section class="main-hero" id="about">
-            <div class="main-hero-elements">
-                <div class="main-hero--name">
-                    <h1 class="full-name">Raymondi Alejandro Ramos Vásquez</h1>
-                    <h2 class="hashtag">@Ralerv</h2>
-                </div>
-                <div class="hero-description--container">
-                    <p class="description">Programación, Photoshop, entusiasta de la tecnología y el aprendizaje</p>
-                    <p class="description">Próximamente streamer y productor de contenido</p>
-                </div>
-            </div>  
+        <section id="about" class="aboutme" >
+            <div class="aboutme_text-container">
+                <h1 class="aboutme_title about_text--white">Raymondi Alejandro Ramos Vásquez</h1>
+                <h2 class="aboutme_hashtag about_text--white">@Ralerv</h2>
+                <p class="aboutme_description about_text--white">Programación, Photoshop, entusiasta de la tecnología y el aprendizaje</p>
+                <p class="aboutme_description about_text--white">Próximamente streamer y productor de contenido</p>
+            </div> 
         </section>
         <section class="main-projects" id="projects">
             <h2>Proyectos</h2>
